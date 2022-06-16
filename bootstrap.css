@@ -1,0 +1,47 @@
+
+#btn{
+    border-radius: 15px;
+    border: 1px solid blue;
+    width: 60%;
+    color:blue ;
+}
+#btn:hover{
+    background-color: #03a9f4;
+    color:white;
+}
+.inner{
+    overflow: hidden; 
+}
+.inner img{
+    transition: all 0.7s ease;
+}
+.inner:hover img{
+    transform: scale(1.1);
+}
+#list li{
+font-size: 13px;
+cursor: pointer;
+}
+#list li:hover{
+    background-color: #03a9f4;
+}
+#footer h4{
+    border-bottom: 1px solid black;
+}
+#footer li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#list{
+    list-style: none;
+}
+#nav-list{
+    color: white;
+    margin-left: 4px;
+ }
+ #nav-list:hover{
+    border-bottom: 3px solid white;
+ }
+ .nav{
+    height: 20px;
+}
